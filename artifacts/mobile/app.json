@@ -1,0 +1,47 @@
+{
+  "expo": {
+    "name": "AeraX AI",
+    "slug": "mobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "mobile",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/images/icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#050d1a"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.aeraxai.mobile"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/icon.png",
+        "backgroundColor": "#050d1a"
+      },
+      "package": "com.aeraxai.mobile"
+    },
+    "web": {
+      "favicon": "./assets/images/icon.png",
+      "title": "AeraX AI — Smart AI For Everyone",
+      "description": "AeraX AI is your advanced AI assistant for chat, image generation, study, coding, writing, business, and more.",
+      "lang": "en",
+      "themeColor": "#00b4ff",
+      "backgroundColor": "#050d1a"
+    },
+    "plugins": [
+      [
+        "expo-router"
+      ],
+      "expo-font",
+      "expo-web-browser"
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    }
+  }
+}
