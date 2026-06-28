@@ -1,6 +1,6 @@
 {
   "buildCommand": "npm install -g pnpm && pnpm install --frozen-lockfile && pnpm --filter @workspace/mobile run build:web",
-  "outputDirectory": "dist",
+  "outputDirectory": "artifacts/mobile/dist",
   "installCommand": "echo 'skip'",
   "framework": null,
   "rewrites": [
